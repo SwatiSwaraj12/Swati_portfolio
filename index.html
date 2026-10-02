@@ -1,149 +1,216 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Swati | Portfolio </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Swati Swaraj | Java Full-Stack Developer</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+     <!-- Navigation Bar -->
     <header class="navbar">
         <div class="brand">
-            <img src="swati_logo.png" alt="Swati Logo" class="nav-logo">
-            <h2 class="logo-text">Swati</h2>
+            <span class="logo-text">Swati Swaraj</span>
         </div>
-        <nav>
+        <nav class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#contact"> Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-left">
-            <p class="small"> Hello 🖐️ I'm </p>
-            <h1> Swati Swaraj </h1>
-            <h3> Full Stack Developer</h3>
+           
+            <h1>Hi, I'm <span class="highlight">Swati Swaraj</span></h1>
+            <h2>Java Full-Stack Developer</h2>
             <p class="desc">
-                I build responsive web applications using React, Java, Spring Boot, and MySQL.
+                Software development student with a strong foundation in Data Structures, OOP, and database systems. Experienced in building RESTful APIs and full-stack web applications.
             </p>
-
-
             <div class="btns">
-                <a class=" btn primary " href="./swati_resume.pdf" target="_blank"> Download Resume </a>
-                <a class="btn secondary" href="#contact">Contact Me</a>
+                <a class="btn primary" href="./swati_resume.pdf" target="_blank">Download Resume</a>
+                <a class="btn secondary" href="#contact">Let's Connect</a>
             </div>
         </div>
         <div class="hero-right">
             <div class="profile-ring">
-                <img src="Swatii_new.jpeg" alt="Swati photo">
+                <img src="Swati_imageee.png" alt="Swati Swaraj">
             </div>
-
         </div>
-
     </section>
+
+    <!-- About Section -->
     <section class="section" id="about">
-        <h2> About me </h2>
-        <p>
-            I am an MCA student at NIT Raipur with a strong interest in Full Stack Web Development.
-I have hands-on experience in building responsive, scalable, and user-friendly web applications.
-
-My technical expertise includes frontend development using React and backend development with Java, Spring Boot, and MySQL.
-I focus on writing clean, maintainable code and delivering seamless user experiences through efficient and well-structured solutions.
-
-I am continuously learning and improving my skills to build impactful and real-world software applications.
-        </p>
-
-    </section>
-
-    <section class="section" id="skills">
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skills-box">
-                <h3>Languages</h3>
-                <div class="grid">
-                    <div class="card">Java</div>
-                    <div class="card">JavaScript</div>
-                    <div class="card">SQL</div>
-                </div>
-            </div>
-
-            <div class="skills-box">
-                <h3>Web Technologies</h3>
-                <div class="grid">
-                    <div class="card">HTML</div>
-                    <div class="card">CSS</div>
-                    <div class="card">React</div>
-                    <div class="card">Spring Boot</div>
-                    <div class="card">MySQL</div>
-                </div>
-            </div>
-
-            <div class="skills-box">
-                <h3>Collaboration Tools</h3>
-                <div class="grid">
-                    <div class="card">Git</div>
-                    <div class="card">GitHub</div>
-                    <div class="card">Postman</div>
-                </div>
-            </div>
-
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-card">
+            <p>
+                Software development student with a strong foundation in Data Structures, OOP, and database systems. Experienced in building RESTful APIs and full-stack web applications utilizing Java, Spring Boot, React, and SQL, alongside machine learning integration. Aiming to leverage technical expertise in a Software Development Engineer role.
+            </p>
         </div>
     </section>
 
-    <section class="section" id="projects">
-        <h2>Projects</h2>
+    <!-- Skills Section (Clean & Organized Grid) -->
+    <section class="section" id="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">C</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Python</span>
+                </div>
+            </div>
 
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span class="tag">React.js</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Responsive Web Design</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">RESTful APIs</span>
+                    <span class="tag">MVC Architecture</span>
+                    <span class="tag">JWT Authentication</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Database & Machine Learning</h3>
+                <div class="skill-tags">
+                    <span class="tag">MySQL</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Scikit-learn</span>
+                    <span class="tag">LightGBM</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">Matplotlib</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Core CS</h3>
+                <div class="skill-tags">
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">Postman</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Cloud Fundamentals</span>
+                    <span class="tag">Data Structures & Algorithms</span>
+                    <span class="tag">Object-Oriented Programming</span>
+                    <span class="tag">DBMS</span>
+                    <span class="tag">Operating Systems</span>
+                    <span class="tag">Computer Networks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="underline"></div>
+        </div>
         <div class="projects-grid">
             <div class="project-card">
-                <h3>Garbage Management System</h3>
-                <p>Web app for collecting garbage requests and tracking pickups.</p>
-                <p class="tech">React • Java • Spring Boot • MySQL</p>
-                <div class="btns">
-                    <a class="btn primary" href="#" target="_blank">Coming Soon</a>
+                <div class="project-content">
+                    <h3>Garbage Management System</h3>
+                    <p>Developed a full-stack Smart Waste Management System using React.js, Spring Boot, and MySQL with secure role-based authentication for Users and Admins. Implemented a complaint reporting module and designed an Admin Dashboard for monitoring complaints and collection workflows.</p>
+                </div>
+                <div class="project-footer">
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>REST APIs</span>
+                    </div>
                 </div>
             </div>
 
             <div class="project-card">
-                <h3>Online Survey System</h3>
-                <p>
-                    A web-based survey platform where users can create surveys, submit responses,
-                    and view results in a clean dashboard.
-                </p>
-                <p class="tech">HTML • CSS • JavaScript • Spring Boot</p>
+                <div class="project-content">
+                    <h3>Memory Card Game</h3>
+                    <p>Built an interactive card-matching game using React.js component-based architecture, implementing game logic for card-flip animations, pair-match validation, turn tracking, and state management via React Hooks.</p>
+                </div>
+                <div class="project-footer">
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>JavaScript</span>
+                        <span>CSS3</span>
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
 
-                <div class="btns">
-                    <a class="btn primary" href="https://onlinesurveysys.netlify.app/" target="_blank">Live Demo</a>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>DDoS Attack Detection using CIC-DDoS2019 Dataset</h3>
+                    <p>Analyzed the CIC-DDoS2019 dataset to detect and classify DDoS attacks using supervised machine learning techniques. Performed data preprocessing, feature scaling, and trained models achieving 96.5% classification accuracy with LightGBM.</p>
+                </div>
+                <div class="project-footer">
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>LightGBM</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="contact">
-        <h2> Contact Me</h2>
-        <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swatiswaraj709@gmail.com" target="_blank">swatiswaraj709@gmail.com </a></p>
-
-
-        <p> GitHub:
-            <a href="https://github.com/SwatiSwaraj12" target="_blank">
-            SwatiSwaraj
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <p class="contact-subtitle">I'm currently looking for new opportunities as a Java Full-Stack Developer. Feel free to reach out!</p>
+        <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swatiswaraj709@gmail.com" target="_blank" class="contact-card">
+                <span>📧 Email</span>
+                <p>swatiswaraj709@gmail.com</p>
             </a>
-
-        </p>
-        <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/swati-swaraj-b8a97b31a" target="_blank">Swati-Swaraj</a>
-        </p>
-
-
+            <a href="https://github.com/SwatiSwaraj12" target="_blank" class="contact-card">
+                <span>💻 GitHub</span>
+                <p>SwatiSwaraj</p>
+            </a>
+            <a href="https://www.linkedin.com/in/swati-swaraj-b8a97b31a" target="_blank" class="contact-card">
+                <span>💼 LinkedIn</span>
+                <p>Swati-Swaraj</p>
+            </a>
+            <a href="https://leetcode.com/u/Swati_Swaraj/" target="_blank" class="contact-card">
+                <span>⚡ LeetCode</span>
+                <p>Swati_Swaraj</p>
+            </a>
+        </div>
     </section>
 
-
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Swati Swaraj. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
